@@ -1,6 +1,8 @@
 # PBIStreamingDataset
 This is a C# sample for sending your data into Streaming Dataset of Microsoft Power BI.
+
 これは Microsoft Power BI の ストリーミングデータセットにデータを POST する C# のサンプルプログラムです。
+
 # Setup (日本語は下です)
 1. Download this project.
 
