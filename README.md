@@ -3,6 +3,16 @@ This is a C# sample for sending your data into Streaming Dataset of Microsoft Po
 
 これは Microsoft Power BI の ストリーミングデータセットにデータを POST する C# のサンプルプログラムです。
 
+# Prepare (準備)
+This sample needs a Streaming Dataset of Microsoft Power BI. So before you execute this sample, you must create Streaming Dataset of Microsoft Power BI. Read the following link:
+
+[Real-time streaming in Power BI](https://docs.microsoft.com/en-us/power-bi/service-real-time-streaming#using-the-streaming-dataset-ui-to-push-data)
+
+このサンプルは Microsoft Power BI のストリーミングデータセットが必要です。事前にストリーミングデータセットを作成しておく必要があります。以下のリンクを参照してください。
+
+[Power BI のリアルタイム ストリーミング](https://docs.microsoft.com/ja-jp/power-bi/service-real-time-streaming#using-the-streaming-dataset-ui-to-push-data)
+
+
 # Setup (日本語は下です)
 1. Download this project.
 
