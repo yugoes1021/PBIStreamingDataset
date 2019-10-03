@@ -26,15 +26,13 @@ namespace PBIStreamingDataset
                 // Send POST request to the push URL
                 Debug.WriteLine(String.Format("Making POST request with data: {0}", content));
 
-                using (HttpClient client = new HttpClient())
-                {
-                    var response = await client.PostAsync(realTimePushURL, content);
+                HttpClient client = new HttpClient();
+                var response = await client.PostAsync(realTimePushURL, content);
 
-                    // Display the status.
-                    Debug.WriteLine(String.Format("Service response: {0}", response.StatusCode));
-                    // Display the content.
-                    Debug.WriteLine(response.Content);
-                }
+                // Display the status.
+                Debug.WriteLine(String.Format("Service response: {0}", response.StatusCode));
+                // Display the content.
+                Debug.WriteLine(response.Content);
             }
             catch (Exception ex)
             {
